@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5acd0c61c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Market</h1>
+        <form>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="search-item" placeholder="Search products"
+            onkeyup="search()">
+        </form>
+        <a id="profileid" href="./profile.html"></a>
+    </header>
+
+
+    <div class="divv">
+        <select onchange="sortProducts()" id="sort">
+            <option value="default">საწყისი</option>
+            <option value="asc">ზრდადი</option>
+            <option value="desc">კლებადი</option>
+        </select>
+    </div><br>
+
+    <div class="postsDiv"></div>
+
+    <div class="modaldiv" style="display: none;">
+        <div class="modal">
+            <h1 class="close-btn" onclick="closebtn()">X</h1>
+            <div class="modal-content">
+
+            </div>
+        </div>
+    </div>    
+
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

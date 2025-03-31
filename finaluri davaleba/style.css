@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+.divv{
+    padding: 15vh 0 2vh 5%;
+
+}
+
+
+.divv select{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px solid linear-gradient(90deg, #a200ff, #007bff);
+    position: fixed;
+}
+
+
+
+
+
+.postsDiv {
+    width: 100%; 
+    max-height: 700vh;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 0 5vh 0;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+.postdiv{
+    min-width: 100px;
+    max-width: 600px;
+    min-height: 200px;
+    box-shadow: 0 10px 20px #999898;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+
+.postdiv img{
+    width: 40%;
+    /* height: 100%; */
+}
+
+.postdiv .textdiv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.postdiv .divdiv{
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
+    height: 90%;
+}
+
+.postdiv .divdivdiv{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btnn{
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 3px 10px #999898;
+    cursor: pointer;
+}
+
+.btnn:hover{
+    background: linear-gradient(to right, #a200ff, #007bff);
+    box-shadow: 0 7px 10px #a200ff;
+    transition: 0.3s;
+    color: white;
+    font-weight: 900;
+}
+
+.desk {
+    width: 100%;
+    max-height: 200px;    
+    overflow-y: scroll;    
+    padding: 10px;       
+    margin-top: 10px;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    border: 1px solid rgba(128, 128, 128, 0.615);
+    border-radius: 10px;
+}
+
+.desk::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+.close-btn{
+    cursor: pointer;
+    color: white;
+}
+
+.close-btn:hover{
+    background: linear-gradient(90deg, #a200ff, #007bff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    text-shadow: 0 7px 10px #a200ff;
+    transition: 0.3s;
+}
+
+.modaldiv{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.437);
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.modal-content{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#img{
+    width: 40%;
+}
+
+#div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    box-sizing: border-box;
+    position: fixed;
+    color: white;
+    /* background: linear-gradient(to right, #ff7e5f, #ffcaa2); */
+    background: linear-gradient(to right, #a200ff, #a200ff, #007bff);
+    box-shadow: 7px 0 10px #a200ff;
+}
+
+
+
+#profileimg{
+    border-radius: 90px;
+    width: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#profileid:hover{
+    transition: 0.3s;
+    box-shadow: 0 7px 10px #a200ff;
+    border-radius: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, #a200ff, #a200ff, #007bff);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form{
+    width: 50%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+
+form i{
+    padding-left: 10px;
+    color: #a200ff;
+}
+
+
+
+
